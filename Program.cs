@@ -10,8 +10,13 @@ namespace Example_Console
     {
         static void Main(string[] args)
         {
-            Mesaj msj = new Mesaj();
-            msj.metin();
+            //Mesaj msj = new Mesaj();
+            //msj.metin();
+
+            Kisiler kisi = new Kisiler();
+            kisi.kisiListesi();
+            
+
             Console.Read();
         }
     }
