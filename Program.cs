@@ -14,7 +14,7 @@ namespace Example_Console
             //msj.metin();
 
             Kisiler kisi = new Kisiler();
-            kisi.kisiListesi();
+            kisi.kisiListesi("Hakki");
             
 
             Console.Read();
