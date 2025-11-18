@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Example_Console
 {
-    internal class Program
+    internal class Mesaj
     {
-        static void Main(string[] args)
+        public void metin()
         {
-            Mesaj msj = new Mesaj();
-            msj.metin();
-            Console.Read();
+            Console.Write("Merhaba Ankara");
         }
     }
 }
