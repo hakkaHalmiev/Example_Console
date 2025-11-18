@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace Example_Console
 {
@@ -14,7 +15,12 @@ namespace Example_Console
             //msj.metin();
 
             Kisiler kisi = new Kisiler();
-            kisi.kisiListesi("Hakki");
+
+            string ad;
+            Console.Write("Isim giriniz:");
+            ad = Console.ReadLine();
+
+            kisi.kisiListesi(ad);
             
 
             Console.Read();
